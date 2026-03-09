@@ -54,8 +54,8 @@ public class ProjectileHero : MonoBehaviour
     /// </summary>
     public Vector3 vel
     {
-        get { return rigid.linearVelocity; }
-        set { rigid.linearVelocity = value; }
+        get { return rigid.velocity; }
+        set { rigid.velocity = value; }
     }
 
 }
